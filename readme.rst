@@ -1,3 +1,19 @@
+About this fork
+===============
+
+The original developer of PyOpenGL is ignoring reported issues
+and pull requests with fixes, so here's a working fork that integrates
+some fixes from the community.
+
+Put these lines in your ``requirements.txt`` to use this fork::
+
+    PyOpenGL @ git+https://github.com/gulagkulak/pyopengl.git@master#egg=PyOpenGL
+    PyOpenGL_accelerate @ git+https://github.com/gulagkulak/pyopengl.git@master#egg=PyOpenGL_accelerate&subdirectory=accelerate
+
+Then install with::
+
+    $ pip install -r requirements.txt
+
 PyOpenGL and PyOpenGL_Accelerate
 =================================
 
